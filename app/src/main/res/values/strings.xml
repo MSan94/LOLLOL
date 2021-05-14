@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LoLLoL</string>
+
+    <!-- 네비게이션 메뉴 -->
+    <string name="home">홈</string>
+    <string name="community">커뮤니티</string>
+    <string name="favorites">즐겨찾기</string>
+    <string name="mypage">마이페이지</string>
+
+    <!-- 홈 메뉴 버튼 -->
+    <string name="intro">롤 소개</string>
+    <string name="item">아이템</string>
+    <string name="lotation">로테이션</string>
+    <string name="match">전적검색</string>
+    <string name="map">맵 정보</string>
+    <string name="tip">게임 팁</string>
+
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/custom_sky"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutBanner"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <ImageView
+            android:background="@drawable/banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayoutMenu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutBanner">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/imageButton_1"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:drawableLeft="@drawable/intro_icon"
+            android:text="@string/intro"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:background="@color/custom_button_color"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton_2"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/imageButton_2"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:drawableLeft="@drawable/item_icon"
+            android:text="@string/item"
+            android:textSize="15dp"
+            android:background="@color/custom_button_color"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toEndOf="@+id/imageButton_1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/imageButton_3"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/custom_button_color"
+            android:drawableLeft="@drawable/lotation_icon"
+            android:text="@string/lotation"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton_4"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton_1" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/imageButton_4"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/custom_button_color"
+            android:drawableLeft="@drawable/match_icon"
+            android:text="@string/match"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toEndOf="@+id/imageButton_3"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton_2" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/imageButton_5"
+            android:background="@color/custom_button_color"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/map_icon"
+            android:text="@string/map"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton_6"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton_3" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/imageButton_6"
+            android:background="@color/custom_button_color"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/tip_icon"
+            android:text="@string/tip"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toEndOf="@+id/imageButton_5"
+            app:layout_constraintTop_toBottomOf="@id/imageButton_4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
