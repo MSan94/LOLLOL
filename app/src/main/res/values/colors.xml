@@ -9,5 +9,7 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="custom_sky">#FFAFEEEE</color>
-    <color name="custom_button_color">#FFFFEFD5</color>
+    <color name="custom_button_color">#E0DAAE</color>
+
+    <color name="backgroud_color">#F2F2F1</color>
 </resources>
