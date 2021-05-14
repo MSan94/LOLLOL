@@ -34,7 +34,6 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
-        val a = 1
 
     }
 

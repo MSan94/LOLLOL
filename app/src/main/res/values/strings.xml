@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">LoLLoL</string>
 
+    <!-- 로그인 관련 버튼 -->
+    <string name="signin">로그인</string>
+    <string name="signup">회원가입</string>
+    <string name="guest_login">게스트로 입장</string>
+
+
     <!-- 네비게이션 메뉴 -->
     <string name="home">홈</string>
     <string name="community">커뮤니티</string>
