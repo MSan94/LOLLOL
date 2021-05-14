@@ -1,13 +1,14 @@
 {
   "project_info": {
     "project_number": "952327543870",
+    "firebase_url": "https://lollol-1f901-default-rtdb.firebaseio.com",
     "project_id": "lollol-1f901",
     "storage_bucket": "lollol-1f901.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:952327543870:android:125a05f3a54c800e41c56f",
+        "mobilesdk_app_id": "1:952327543870:android:83969c4226e8fbd241c56f",
         "android_client_info": {
           "package_name": "com.myprj.msan.lollol"
         }

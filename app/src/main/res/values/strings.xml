@@ -6,6 +6,13 @@
     <string name="signup">회원가입</string>
     <string name="guest_login">게스트로 입장</string>
 
+    <!-- 회원가입 관련 버튼 -->
+    <string name="signupsuccess">등록</string>
+    <string name="signupcancel">취소</string>
+
+    <!-- hint -->
+    <string name="id">아이디 ex) abcd@google.com</string>
+    <string name="pw">패스워드 (5자이상)</string>
 
     <!-- 네비게이션 메뉴 -->
     <string name="home">홈</string>
